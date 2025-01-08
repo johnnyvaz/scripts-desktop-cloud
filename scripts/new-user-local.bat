@@ -1,0 +1,1 @@
+New-LocalUser -Name "NomeDoUsuario" -FullName "Nome Completo do Usuário" -Description "Descrição do Usuário" -Password (ConvertTo-SecureString "SenhaForte123" -AsPlainText -Force) -PasswordNeverExpires $true

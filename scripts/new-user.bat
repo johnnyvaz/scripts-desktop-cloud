@@ -1,0 +1,1 @@
+New-ADUser -Name "NomeDoUsuario" -GivenName "Nome" -Surname "Sobrenome" -SamAccountName "NomeDoUsuario" -UserPrincipalName "NomeDoUsuario@dominio.com" -Path "OU=Usuarios,DC=dominio,DC=com" -AccountPassword (ConvertTo-SecureString "SenhaForte123" -AsPlainText -Force) -Enabled $true
